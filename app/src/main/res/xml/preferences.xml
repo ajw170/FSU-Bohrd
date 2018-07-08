@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/speed_chooser"
+        android:entryValues="@array/speed_values"
+        android:key="pref_speedChoice"
+        android:title="@string/speed_chooser"
+        android:summary="@string/speed_choose_description"
+        android:persistent="true"
+        android:defaultValue="2" />
+</PreferenceScreen>
