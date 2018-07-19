@@ -1,5 +1,6 @@
 package com.cop4656.bohrd;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -42,7 +43,8 @@ public class MainActivity extends AppCompatActivity {
                 registerOnSharedPreferenceChangeListener(
                         preferencesChangeListener);
 
-
+        Intent advertisementIntent = new Intent(this, AdvertisementActivity.class);
+        startActivity(advertisementIntent);
     }
 
     @Override
