@@ -29,11 +29,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.cop4656.bohrd.MainActivity" />
         </activity>
-        <activity
-            android:name=".AdvertisementActivity"
-            android:label="@string/title_activity_advertisement"
-            android:theme="@style/AppTheme.FullScreen">
-        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="holo_red_darker">#8e0000</color>
+    <color name="color_white_text">#ffffff</color>
+    <color name="colorAccent">#ffcf40</color>
+</resources>

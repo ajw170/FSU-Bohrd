@@ -16,6 +16,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+
+import com.cop4656.advertisements.AddTwo;
+import com.cop4656.advertisements.AdvertisementActivity;
+
+import java.io.Console;
 import java.util.Set;
 
 public class MainActivity extends AppCompatActivity {
@@ -43,8 +48,11 @@ public class MainActivity extends AppCompatActivity {
                 registerOnSharedPreferenceChangeListener(
                         preferencesChangeListener);
 
-        Intent advertisementIntent = new Intent(this, AdvertisementActivity.class);
-        startActivity(advertisementIntent);
+            Intent advertisementIntent = new Intent(this,com.cop4656.advertisements.AdvertisementActivity.class);
+            startActivity(advertisementIntent);
+
+            int test = AddTwo.add(1,2);
+            Log.i("Result",Integer.toString(test));
     }
 
     @Override

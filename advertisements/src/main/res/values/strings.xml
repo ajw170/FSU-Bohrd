@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Advertisements</string>
+    <string name="fsu_logo">FSU Logo</string>
+    <string name="fsu_advertisement">This application has been made possible by the FSU Computer Science Department.  For additional information, tap
+    the link below.</string>
+    <string name="fsu_cs_link"><a href="https://www.cs.fsu.edu">FSU Computer Science Department</a></string>
+    <string name="title_activity_advertisement">AdvertisementActivity</string>
 </resources>
